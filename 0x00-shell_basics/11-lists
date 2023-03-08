@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -la)" echo "$(ls -la  ..)" echo "$(ls -la /boot)"
+echo ".:\n$(ls -la)" echo "..:\n$(ls -la  ..)" echo "/boot:\n$(ls -la /boot)"
