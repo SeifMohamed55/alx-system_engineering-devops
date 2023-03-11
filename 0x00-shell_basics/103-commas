@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(ls -a -m -d)$(ls -a -m) "
+echo "$(ls -a -p -d -m)$(ls -a -m) "
