@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{gsub(/A/,"Z") gsub(/c/ , "e") }1'
+tr A Z | tr c e
